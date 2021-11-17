@@ -25,5 +25,5 @@ for line in seqtab:
 output = open('C:/Users/jjcol/Downloads/seqtab.nochimTransposed.txt','w')
 
 for s in seqtab.nochim:
-    output.write(s+ '\n')
+    output.write(s)
 output.close()
